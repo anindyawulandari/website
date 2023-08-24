@@ -1,0 +1,304 @@
+
+	body{
+		background-color: bisque;
+		font-family: Cambria, Gochin, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+
+h1{
+	text-align: center;
+}
+
+.tulisanbergerak{
+	background-color: blanchedalmond;
+	font-size: 20px;
+}
+
+.jadwal{
+    display: block;
+    width: 90%;
+    height: 480px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show-button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	width: 200px;
+	height: 50px;
+	border: 5px solid grey;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+	background-color: grey;
+	color: white;
+}
+
+.tabelpelajaran{
+	display: inline-block;
+	background-color: beige;
+	width: auto;
+}
+
+.daftarsiswa{
+	display: inline-block;
+	width: 100%;
+}
+
+#siswa{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blanchedalmond;
+
+}
+
+#siswa div{
+	display: inline-block;
+	border: 2px solid black;
+	
+	width: 250px;
+	height: auto;
+	background-color: salmon;
+}
+
+#siswa div ul li{
+	font-size: 13px;
+}
+.jadwal-piket-kelas{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.jadwal-piket-kelas div{
+	display: inline-block;
+	width: 250px;
+	height: 200%;
+	background-color: darksalmon;
+	border: 3px solid black;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+#jadwalDiv{
+	display: none;
+}
+.jadwal-piket-kelas div h4{
+	text-align: center;
+}
+
+#show{
+	display: block;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px){
+	body{
+		background-color: rgb(219, 20, 97);
+		font-family: Cambria, Gochin, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	.tulisanbergerak{
+		background-color: rgb(151, 115, 115);
+		font-size: 20px;
+	}
+
+	.jadwal{
+	    display: block;
+	    width: 90%;
+	    height: 480px;
+	    padding: 10px;
+	    text-align: center;
+	    margin-top: 10px;
+	    border: 2px solid whitesmoke;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.show-button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		color: black;
+		width: 200px;
+		height: 50px;
+		border: 5px solid grey;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	button:hover{
+		background-color: grey;
+		color: white;
+	}
+
+	.tabelpelajaran{
+		display: inline-block;
+		background-color: beige;
+		width: auto;
+	}
+
+	.daftarsiswa{
+		display: inline-block;
+		width: 100%;
+	}
+
+	#siswa{
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: blanchedalmond;
+
+	}
+
+	#siswa div{
+		display: inline-block;
+		border: 2px solid black;
+		
+		width: 250px;
+		height: auto;
+		background-color: salmon;
+	}
+
+	#siswa div ul li{
+		font-size: 13px;
+	}
+	.jadwal-piket-kelas{
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+
+	.jadwal-piket-kelas div{
+		display: inline-block;
+		width: 250px;
+		height: 200%;
+		background-color: darksalmon;
+		border: 3px solid black;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	#jadwalDiv{
+		display: none;
+	}
+	.jadwal-piket-kelas div h4{
+		text-align: center;
+	}
+
+	#show{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	body{
+		background-color: rgb(39, 22, 187);
+		font-family: Cambria, Gochin, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+
+	h1{
+	text-align: center;
+}
+
+	.tulisanbergerak{
+		background-color: rgb(171, 227, 236);		
+		font-size: 20px;
+	}
+
+	.jadwal{
+	    display: block;
+	    width: 90%;
+	    height: 480px;
+	    padding: 10px;
+	    text-align: center;
+	    margin-top: 10px;
+	    border: 2px solid whitesmoke;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.show-button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		color: black;
+		width: 200px;
+		height: 50px;
+		border: 5px solid grey;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	button:hover{
+		background-color: grey;
+		color: white;
+	}
+
+	.tabelpelajaran{
+		display: inline-block;
+		background-color: beige;
+		width: auto;
+	}
+
+	.daftarsiswa{
+		display: inline-block;
+		width: 100%;
+	}
+
+	#siswa{
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: blanchedalmond;
+
+	}
+
+	#siswa div{
+		display: inline-block;
+		border: 2px solid black;
+		
+		width: 250px;
+		height: auto;
+		background-color: salmon;
+	}
+
+	#siswa div ul li{
+		font-size: 13px;
+	}
+	.jadwal-piket-kelas{
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+
+	.jadwal-piket-kelas div{
+		display: inline-block;
+		width: 250px;
+		height: 200%;
+		background-color: darksalmon;
+		border: 3px solid black;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	#jadwalDiv{
+		display: none;
+	}
+	.jadwal-piket-kelas div h4{
+		text-align: center;
+	}
+
+	#show{
+		display: block;
+	}
+}
